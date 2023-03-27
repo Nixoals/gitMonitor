@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "rigid-square-semiBold", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    src: url('https://use.typekit.net/fkb4ovc.css');
+}
+
+@font-face {
+    font-family: "rigid-square", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    src: url('https://use.typekit.net/fkb4ovc.css');
+}
+
+@font-face {
+    font-family: "rigid-square-bold", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    src: url('https://use.typekit.net/fkb4ovc.css');
+}
+
+:root{
+    --primary-color: #1D1D1D;
+    --secondary-color: #2272FF;
+    --tertiary-color: #c91b1bd8;
+}
+
+body{
+    background-color: var(--primary-color);
+    color: #eaeaea;
+    font-family: "rigid-square", sans-serif;
+    font-weight: 300;
+}

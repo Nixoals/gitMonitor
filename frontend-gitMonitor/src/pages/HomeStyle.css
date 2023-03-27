@@ -1,0 +1,83 @@
+.home-conainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 30px; */
+}
+
+.api-input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px auto 30px auto;
+    width: 100%;
+    position: relative;
+    height: 100px;
+    transition: all 0.5s ease;
+}
+
+.api-input-value{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px auto 30px auto;
+    max-width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+
+.incident-card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 756px;
+    margin-top: 30px;
+    margin: 30px auto;
+    transition: all 0.5s ease;
+}
+
+.source-list-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 756px;
+    margin-top: 30px;
+    margin: 30px auto;
+    transition: all 0.5s ease;
+    
+}
+
+.error-message{
+    position: absolute;
+    bottom: 10px;
+    
+}
+
+.occurence-count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.occurence-count h1{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--secondary-color);
+
+}
+
+.checkbox-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}

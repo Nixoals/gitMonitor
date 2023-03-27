@@ -1,0 +1,24 @@
+.heart-beat {
+    stroke-dasharray: 541px;
+    stroke-dashoffset: 250px;
+    stroke-width: 2px;
+    filter: drop-shadow(0px 0px 10px rgba(255, 0, 0, 0.8));
+    filter: drop-shadow(0px 0px 50px rgba(255, 100, 0, 0.5));
+}
+  
+@keyframes dash {
+    0% {
+        stroke-dashoffset: 541px;
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.7;
+    }
+    50% {
+        opacity: 0.75;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        opacity: 0.3;
+    }
+}

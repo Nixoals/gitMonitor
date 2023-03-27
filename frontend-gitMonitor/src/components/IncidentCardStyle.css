@@ -1,0 +1,101 @@
+.card-incident-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 200px;
+    height: 150px;
+    margin-top: 30px;
+    border: solid 1px var(--secondary-color);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    background-color: var(--secondary-color);
+    filter: drop-shadow(0px 0px 5px var(--secondary-color));
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    
+    
+}
+
+.card-incident{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    font-weight: 600;
+    /* transition: all 0.3s ease-in-out; */
+}
+
+
+
+.heart-beat-container{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: -15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px auto;
+    z-index: 10;
+    box-sizing: content-box;
+    left: 0;
+    bottom: -100%;
+    background-color: rgba(40,40,40, 0.9);
+    border-radius: 5px;
+}
+
+.heart-beat-container h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.card-incident:hover > .heart-beat-container{
+    bottom: 0% !important;
+    transition: bottom 0.3s ease-in-out;
+}
+
+.heart-beat-container svg{
+    height: 100%;
+    width: 100%;
+}
+
+.incident-card-status-revoked{
+    position: absolute;
+    transform: rotate(-45deg) translate(-50%, -70%);
+    top: 20%;
+    left: 40%;
+    font-size: 2rem;
+    color: var(--primary-color);
+    font-weight: 800;
+    font-family: "rigid-square-bold", sans-serif;
+}
+
+.card-details-title{
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px auto;
+    padding: 0;
+}
+
+.resolve-reopen-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--secondary-color);
+    transition: all 0.3s ease-in-out;
+}
