@@ -19,5 +19,5 @@ yarn && yarn start
 
 
 ## Live app:
-You can also use it online (here)[https://cool-starship-4e955a.netlify.app]
+You can also use it online [here](https://cool-starship-4e955a.netlify.app)
 
